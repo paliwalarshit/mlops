@@ -1,4 +1,4 @@
-programfile = open('/mlops/program.py','r')	#connecting to the code file
+programfile = open('/root/mlops/program.py','r')	#connecting to the code file
 code = programfile.read()				#reading the code file
 
 if 'keras' or 'tensorflow' in code:			#because keras or tensorflow keyword is a must for a deep learning program
